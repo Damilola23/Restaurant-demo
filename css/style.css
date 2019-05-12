@@ -1,0 +1,92 @@
+body, html{
+    height: 100%;
+}
+.topnav{
+    background-color:rgb(255, 0,0);
+    overflow: hidden;
+}
+.topnav a{
+    float:left; 
+display:block;
+color: #f2f2f2;
+/* text-align: center; */
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #f7B906;
+    color:black;
+}
+.topnav a.active{
+    background-color: #f7B906;
+    color:floralwhite
+}
+    div.hero-image{
+        background-image: url(../img/Spaghetti.jpg);
+        height: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: Cover;
+        position: relative;
+    }
+    div.hero-text{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: red;
+    }
+    div.hero-text h1{
+        font-size: 3em;
+    }
+    div.hero-text a button{
+        color: blueviolet;
+        margin-top: 30px;
+        border-color: red;
+        padding:10px;
+        background:blanchedalmond
+    }
+    .demo-box{
+        background-color: rgba(0,0,0,0.5)
+    }
+    .description {
+        max-width: 600px;
+        text-align: center;
+        margin: auto;
+    }
+    .description h2{
+        text-transform: capitalize;
+    }
+    .column{
+        float: left;
+        width: 33.33%;
+    }
+    .column img{
+        width: 100%;
+        height: auto;
+    }
+    .row{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .row:after{
+    content: "";
+    display: table;
+    clear: both;
+    }
+    footer{
+        background: antiquewhite;
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    footer p{
+        color: black
+    }
+    @media screen and (max-width:600px) {
+        .column{
+        width:100%;
+    }
+}
